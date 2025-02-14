@@ -38,7 +38,7 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
-    var text by remember { mutableStateOf("Hello $name!") }
+    var text by remember { mutableStateOf("Ssup $name!") }
 
     Column(modifier = modifier, horizontalAlignment = Alignment.CenterHorizontally) {
         Text(text = text)
