@@ -27,7 +27,7 @@ class MainActivity : ComponentActivity() {
             MyNewKotlinAppTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Greeting(
-                        name = "Riya",
+                        name = "Riyya",
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
